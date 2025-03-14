@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+.black-bg {
+  background-color: #0a0a0a;
+}
+.bg-gray {
+  background-color: #252627;
+}
+
+.text-primary {
+  color: #bfbfbf;
+}
+
+.text-secondary {
+  color: rgba(235, 235, 245, 0.5);
+}
+
+.orange-text {
+  color: #ff3d00;
+}
+.orange-bg {
+  transition: 0.3s;
+  background-color: #ff3d00;
+}
+.orange-bg:hover {
+  background-color: #fff;
+  color: #ff3d00;
+  transition: 0.3s;
+  cursor: pointer;
+}
+@font-face {
+  font-family: "Ramillas";
+  src: url("fonts/Ramillas/Fontspring-DEMO-tt_ramillas_regular.otf")
+    format("opentype");
+  font-weight: normal;
+}

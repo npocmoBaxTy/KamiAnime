@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Dangrek&family=Jost:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  font-family: "Jost", serif;
+  font-style: normal;
+}
+
+.logo {
+  font-family: "Dangrek", serif;
+  font-style: normal;
+}
+.login--page form,
+.signup--page form {
+  backdrop-filter: blur(12px);
+}
+.login--page,
+.signup--page {
+  color: white;
+}
+@media (max-width: 768px) {
+  .login--page,
+  .signup--page {
+    background-image: url("./assets/bg.png");
+    background-size: cover;
+    background-position: center;
+    color: white;
+  }
+}

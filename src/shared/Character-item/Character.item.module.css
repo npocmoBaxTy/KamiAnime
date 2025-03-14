@@ -1,0 +1,6 @@
+.character__card {
+  display: block;
+}
+.character__card--nogrid .character--image img {
+  border-radius: 0;
+}

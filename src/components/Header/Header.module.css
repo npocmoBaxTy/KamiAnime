@@ -1,0 +1,7 @@
+@media (max-width: 767px) {
+  .header {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+  }
+}

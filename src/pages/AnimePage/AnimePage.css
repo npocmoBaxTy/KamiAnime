@@ -1,0 +1,19 @@
+.anime__img--options button {
+  padding: 5px 8px 5px 8px;
+  border-radius: 5px;
+}
+
+.anime__page-tabs-list .anime__page-tab {
+  outline: none;
+  color: #bfbfbf;
+  padding: 10px;
+}
+
+.anime__page-tabs-list .anime__page-tab[data-selected] {
+  color: white;
+  border-bottom: 2px solid #ad46ff;
+}
+
+.anime__desc i {
+  font-style: italic;
+}

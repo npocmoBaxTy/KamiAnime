@@ -1,0 +1,16 @@
+.profile__page--tab {
+  transition: 0.3s;
+  padding: 10px;
+}
+@media (max-width: 500px) {
+  .profile__page--tab {
+    transition: 0.3s;
+    padding: 5px;
+  }
+}
+.profile__page--tab:hover {
+  transition: 0.3s;
+  color: white;
+  cursor: pointer;
+  transform: translateY(-5px);
+}

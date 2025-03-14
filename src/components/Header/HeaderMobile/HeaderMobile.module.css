@@ -1,0 +1,16 @@
+.header--for--mobile__inner-item {
+  padding: 10px;
+  font-size: 13px;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+}
+.header--for--mobile__inner-item .header--for--mobile__link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.header--for--mobile__inner-item .header--for--mobile__link svg {
+  color: white;
+}
